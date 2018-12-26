@@ -1,0 +1,26 @@
+﻿  App.cpp
+h:\15. engine\sdl project template1\sdl project template1\app.h(5): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  collider2D.cpp
+h:\15. engine\sdl project template1\sdl project template1\collider2d.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  colliderWall.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  collisionManager.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  gameCamera.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  GameObject.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  GOManager.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  main.cpp
+h:\15. engine\sdl project template1\sdl project template1\app.h(5): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  Player.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  reffer.cpp
+h:\15. engine\sdl project template1\sdl project template1\reffer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  Scene.cpp
+h:\15. engine\sdl project template1\sdl project template1\scene.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  SceneDevTest.cpp
+h:\15. engine\sdl project template1\sdl project template1\scene.h(2): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
+  SpriteRenderer.cpp
+h:\15. engine\sdl project template1\sdl project template1\spriterenderer.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "SDL.h": No such file or directory
