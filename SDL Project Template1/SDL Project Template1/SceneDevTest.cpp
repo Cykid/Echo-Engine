@@ -27,6 +27,7 @@ void SceneDevTest::sceneLogik()
 	//Main Loop
 	while (engineRun)
 	{
+		//Proxy the Input to the Inputhandler
 		while (SDL_PollEvent(&this->refObj->eventHandler) != 0)
 		{
 			if (this->refObj->eventHandler.type == SDL_QUIT) {
@@ -41,12 +42,16 @@ void SceneDevTest::sceneLogik()
 
 		SDL_RenderClear(this->refObj->renderer);
 
+		//Check Collisions
 		this->cM->checkCollision();
 
+
+		//Run GameObjects
 		this->goManager->logik();
 
 		this->goManager->render();
 
+		//Show Screen
 		SDL_RenderPresent(this->refObj->renderer);		
 	}	
 }

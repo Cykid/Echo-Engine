@@ -24,19 +24,22 @@ void InputHandler::logic() {
 			case SDL_KEYDOWN:
 				switch (this->refObj->eventHandler.key.keysym.sym) {
 					case SDLK_a:
-						cam->transform->addVelocity(5, 0, 0);
+						cam->transform->addVelocity(-5, 0, 0);
+						break;
+						
 					case SDLK_d:
 						cam->transform->addVelocity(5, 0, 0);
+						break;
+						
 					case SDLK_w:
-						cam->transform->addVelocity(0, -5, 0);
+						cam->transform->addVelocity(0, -5.f, 0);
+						break;
+						
 					case SDLK_s:
 						cam->transform->addVelocity(0, 5, 0);
-
-
-
+						break;
 
 				}
 
-				break;
 		}
 	}

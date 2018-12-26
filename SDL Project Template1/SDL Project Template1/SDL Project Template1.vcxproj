@@ -134,6 +134,7 @@
     <ClCompile Include="reffer.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneDevTest.cpp" />
+    <ClCompile Include="simplePath.cpp" />
     <ClCompile Include="SpriteRenderer.cpp" />
     <ClCompile Include="Transform.cpp" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneDevTest.h" />
+    <ClInclude Include="simplePath.h" />
     <ClInclude Include="SpriteRenderer.h" />
     <ClInclude Include="Transform.h" />
   </ItemGroup>
